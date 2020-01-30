@@ -1,0 +1,18 @@
+.game__grid
+  grid-auto-rows: 1fr
+  padding: 1px
+  grid-gap: 1px
+  grid-auto-columns: auto
+  &::after 
+    content: ''
+    width: 0
+    padding-bottom: 100%
+    grid-row: 1 / 1
+    grid-column: 1 / 1
+
+  & > *:first-child 
+    grid-row: 1 / 1
+    grid-column: 1 / 1
+
+  &__item 
+    box-shadow: 0 0 1px 1px

@@ -1,0 +1,13 @@
+export const FETCH_OPTIONS_START = "FETCH_OPTIONS_START";
+export const FETCH_OPTIONS_FAIL = "FETCH_OPTIONS_FAIL";
+export const FETCH_OPTIONS_SUCCESS = "FETCH_OPTIONS_SUCCESS";
+
+export const CHANGE_NAME = "CHANGE_NAME";
+
+export const CHANGE_MODE = "CHANGE_MODE";
+
+export const TOGGLE_PLAY = "TOGGLE_PLAY";
+
+export const SET_WINNER = "SET_WINNER";
+
+export const RESET_WINNER = "RESET_WINNER";
